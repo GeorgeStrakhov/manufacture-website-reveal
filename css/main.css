@@ -319,7 +319,7 @@ body {
 /*********************************************
  * ROLLING LINKS
  *********************************************/
-
+/* DISABLED FOR NOW
 .reveal .roll {
 	display: inline-block;
 	line-height: 1.2;
