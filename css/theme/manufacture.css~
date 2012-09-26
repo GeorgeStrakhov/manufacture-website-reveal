@@ -93,6 +93,22 @@ body {
   text-align: justify;
 }
 
+.reveal h5 {
+  line-height: 1em;
+  font-size: 0.84em;
+  padding-left: 0px;
+  color: #999;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.reveal h5 a, .reveal h5 a:hover {
+  color: #999;
+  border: 1px dashed #999;
+}
+
 .reveal .leftpadding {
   padding-left: 10px;
 }
@@ -104,7 +120,7 @@ body {
 .absolutefooter {
   position: absolute; bottom: 10px; left: 50%;
   margin-left: -90px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   width: 180px;
 }
@@ -113,6 +129,12 @@ body {
   color: #555;
   text-decoration: none;
   border-bottom: 1px dashed #555;
+}
+
+.absolutefooter a:hover {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333; 
 }
 
 /*********************************************
@@ -135,7 +157,11 @@ body {
 		text-shadow: none;
 		border-radius: 2px;
 	}
-	
+
+.reveal .noborder, .reveal .noborder:hover{
+  border: none;
+}
+
 .controls a, .controls a:hover {
   border: none;
 }
